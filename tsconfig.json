@@ -9,6 +9,7 @@
     "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
     "outDir": "build",
     "lib": ["ES2020"],
+    "noEmit": true /* Do not emit outputs. */,
     "strict": true /* Enable all strict type-checking options. */,
     "noImplicitAny": true /* Enable error reporting for expressions and declarations with an implied `any` type.. */,
     "noImplicitThis": true /* Enable error reporting when `this` is given the type `any`. */,
