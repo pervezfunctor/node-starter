@@ -1,9 +1,9 @@
-import tap from 'tap'
+import {pass, test} from 'tap'
 import add from './add'
 
-tap.pass('this test is always passing')
+pass('this test is always passing')
 
-tap.test('add', t => {
+test('add', t => {
   t.equal(add(1, 2), 3)
   t.end()
 })
