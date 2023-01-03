@@ -1,1 +1,1 @@
-// @ts-nocheck
+console.log(' hello world')
